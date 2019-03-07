@@ -1,5 +1,5 @@
 # 【HTML/CSS 課題2】CSSで見た目を整える
-## 以下と同じになるよう「kadai.html」を作成してください
+## 以下と同じになるようCSSで見た目を整えてください
 ![完成画像](https://github.com/manaberuit/html-css-practice2/blob/image/html-css-practice2.PNG)  
 - リンク先には遷移できなくて構いません。
 - 使用する画像をimagesフォルダに入っています。フォルダ構成は変更しないでください。  
