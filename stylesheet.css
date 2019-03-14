@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 40px;
+  margin: 30px 50px 0 50px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 0px
+}
+
+.header-left {
+  padding-left: 50px;
+  float: left;
+}
+
+.header-right {
+  vertical-align: middle;
+  line-height: 40px;
+  float: right;
+}
+
+.header-right a {
+  padding: 0 10px;
+  font-size: 12px;
+  float: left;
+}
+
+.top-wrapper {
+  margin: 0 50px;
+}
+
+.top-wrapper img {
+  width: 100%;
+}
+
+.body-wrapper {
+  margin: 20px 50px 10px 50px;
+  overflow: hidden;
+}
+
+.container-left {
+  width: 50%;
+  padding-right: 10px;
+  float:left;
+}
+
+.container-left h1 {
+  font-size: 13px;
+}
+
+.container-left p {
+  font-size: 12px;
+}
+
+.container-left a {
+  text-decoration: underline;
+}
+
+.container-right {
+  width: 50%;
+  float:right;
+}
+
+.container-right h1 {
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+.container-right p {
+  font-size: 12px;
+}
+
+.article {
+  padding: 0 10px;
+  margin: 0 0 15px 10px;
+  border: 3px solid #F3F3F3;
+  border-radius: 10px;
+}
+
+.bottom-wrapper {
+  padding-top: 10px;
+  background-color: #F3F3F3;
+  overflow: hidden;
+}
+
+.contents {
+  padding-right: 100px;
+  float: left;
+}
+
+.contents h1 {
+  padding-left: 50px;
+  font-size: 13px;
+}
+
+.contents ul {
+  margin: 0;
+}
+
+.contents li {
+ margin-left: 10px; 
+ font-size: 12px;
+}
+
+footer {
+  background-color: #F3F3F3;
+  padding: 10px 0 20px 0;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+}
