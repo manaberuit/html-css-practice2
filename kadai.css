@@ -26,17 +26,9 @@ a{
   margin-top:13px;
 }
 
- .layout-header{
-  position:absolute;
-  right:50%;
-  margin-left:80px;
-}
-
-.layout-main{
-  position:absolute;
-  left:50%;
-  margin-top:20px;
-}
+ .layout{
+   display:flex;
+ }
 
 .layout-main-border-radius{
   padding-right:250px;
@@ -50,18 +42,16 @@ a{
   margin-left:30px;
 }
 
-.nav-under-box{
-  position:relative;
-  top:700px;
+.footer{
+  display: flex;
+  flex-direction: column;
   background:#C0C0C0;
 }
 
-.references{
-  text-align:center;
+.nav-under-box{
+  display:flex;
 }
 
-.nav-under-box-right{
-  position:absolute;
-  left:400px;
-  bottom:50px;
+.references{
+  margin:0 auto;
 }
