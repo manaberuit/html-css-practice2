@@ -2,6 +2,14 @@ body{
   margin:30px 80px;
 }
 
+h2{
+  font-size:20px;
+}
+
+h3{
+  padding-left:50px;
+}
+
 p{
   color:#808080;
 }
@@ -16,30 +24,43 @@ a{
 
 .nav-top-inline-block{
   list-style-type:none;
-  margin-right:10px;
-  text-align:right;
+  display:flex;
+  justify-content:flex-end;
+  margin-right:130px;
 }
 
+
 .nav-top-box-list{
-  display:inline-block;
   padding-left:32px;
   margin-top:13px;
 }
 
  .layout{
    display:flex;
+   margin:30px 0px;
  }
 
+ .layout-header{
+   width:35%;
+   padding-right:30px;
+ }
+
+
 .layout-main-border-radius{
-  padding-right:250px;
-  margin:10px 0px 10px 0px;
+  padding-right:380px;
   background: #FFF;
   border: solid 2px #C0C0C0;
   border-radius: 10px;
+  margin-top:30px;
+  margin-bottom:30px;
 }
 
-.layout-main-header{
-  margin-left:30px;
+.layout-main-border-radius-header{
+  padding-left:50px;
+}
+
+.layout-main-border-radius-content{
+  padding-left:20px;
 }
 
 .footer{
@@ -50,6 +71,12 @@ a{
 
 .nav-under-box{
   display:flex;
+}
+
+.nav-under-box-right{
+  padding-left:150px;
+  padding-right:auto;
+  background:#C0C0C0;
 }
 
 .references{
