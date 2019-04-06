@@ -71,6 +71,7 @@ a{
 
 .nav-under-box{
   display:flex;
+  flex-wrap: wrap;
 }
 
 .nav-under-box-right{
